@@ -36,7 +36,7 @@ app.factory('instagram', function($resource){
 // The controller is below. Instagram service is included and will 
 // be available inside the function automatically.
 
-function SwitchableGridController($scope, instagram){
+function PopularPhotosController($scope, instagram){
 
 	// Default layout of the app. Clicking the buttons on the toolbar
 	// will change this value.
@@ -45,7 +45,7 @@ function SwitchableGridController($scope, instagram){
 
 	$scope.pics = [];
 
-	// Uses the instagram service to retrieve a list of the popular photos
+	// Uses the instagram service to retrieve a list of the popular pics
 	instagram.retrievePopular(function(data){
 
 		// Assigning the pics array will cause the view
