@@ -12,7 +12,7 @@ app.factory('instagram', function($resource){
 			// The ngResource module gives us the $resource service. It makes working with
 			// AJAX easy. The client_id of the app is included below. 
 
-			var api = $resource('https://api.instagram.com/v1/media/popular?client_id=90b8cb3e308146c29c18ad7c85b555ad&callback=JSON_CALLBACK',{
+			var api = $resource('https://api.instagram.com/v1/media/popular?client_id=client_id&callback=JSON_CALLBACK',{
 				client_id: '90b8cb3e308146c29c18ad7c85b555ad'
 			},{
 				// This creates an action which we've chosen to name "retrieve". It issues
