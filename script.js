@@ -7,7 +7,7 @@ var app = angular.module("PopularPhotos", ['ngResource']);
 app.factory('instagram', function($resource){
 
 	return {
-		fetchPopular: function(callback){
+		retrievePopular: function(callback){
 
 			// The ngResource module gives us the $resource service. It makes working with
 			// AJAX easy. The client_id of the app is included below. 
