@@ -36,7 +36,7 @@ app.factory('instagram', function($resource){
 // The controller is below. Instagram service is included and will 
 // be available inside the function automatically.
 
-function PopularPhotosController($scope, instagram){
+function PopularPhotoController($scope, instagram){
 
 	// Default layout of the app. Clicking the buttons on the toolbar
 	// will change this value.
