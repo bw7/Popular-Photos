@@ -24,7 +24,7 @@
 		<!-- We have two layouts. The "layout" binding determines which UL view will be displayed. -->
 
 		<ul ng-show="layout == 'grid'" class="grid">
-			<!-- Displays a view with big photos and is text-free -->
+			<!-- Displays a view with big photos and is text-free. -->
 			<li ng-repeat="p in pics">
 				<a href="{{p.link}}" target="_blank"><img ng-src="{{p.images.low_resolution.url}}" /></a>
 			</li>
