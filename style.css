@@ -111,7 +111,7 @@ ul.list{
 }
 
 ul.list li{
-	border-bottom: 1px solid #ddd;
+	border-bottom: 1px solid #000066;
 	padding: 10px;
 	overflow: hidden;
 }
