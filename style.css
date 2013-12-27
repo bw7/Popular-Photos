@@ -40,11 +40,11 @@ section, footer, header, aside, nav{
 
 
 .bar{
-	background-color:#5c9bb7;
+	background-color:#663300;
 
-	background-image:-webkit-linear-gradient(top, #5c9bb7, #5392ad);
-	background-image:-moz-linear-gradient(top, #5c9bb7, #5392ad);
-	background-image:linear-gradient(top, #5c9bb7, #5392ad);
+	background-image:-webkit-linear-gradient(top, #663300, #5392ad);
+	background-image:-moz-linear-gradient(top, #663300, #5392ad);
+	background-image:linear-gradient(top, #663300, #5392ad);
 
 	box-shadow: 0 1px 1px #ccc;
 	border-radius: 2px;
@@ -57,7 +57,7 @@ section, footer, header, aside, nav{
 }
 
 .bar a{
-	background:#4987a1 center center no-repeat;
+	background:#000033 center center no-repeat;
 	width:32px;
 	height:32px;
 	display:inline-block;
@@ -67,7 +67,7 @@ section, footer, header, aside, nav{
 }
 
 .bar a.active{
-	background-color:#c14694;
+	background-color:#660033;
 }
 
 .bar a.list-icon{
