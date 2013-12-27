@@ -61,7 +61,7 @@ section, footer, header, aside, nav{
 	width:32px;
 	height:32px;
 	display:inline-block;
-	text-decoration:none !important;
+	text-decoration:none;
 	margin-right:5px;
 	border-radius:2px;
 }
@@ -79,7 +79,7 @@ section, footer, header, aside, nav{
 }
 
 .bar input{
-	background:#fff no-repeat 13px 13px;
+	background:#FFFF99 no-repeat 13px 13px;
 
 	border: none;
 	width: 100%;
@@ -111,7 +111,10 @@ ul.list{
 }
 
 ul.list li{
+	border-top: 1.5px solid #000066;
 	border-bottom: 1px solid #000066;
+	border-left: 1px solid #000066;
+	border-right: 1px solid #000066;
 	padding: 10px;
 	overflow: hidden;
 }
@@ -120,7 +123,7 @@ ul.list li img{
 	width:120px;
 	height:120px;
 	float:left;
-	border:none;
+	border:1px solid 000066;
 }
 
 ul.list li p{
