@@ -105,16 +105,16 @@ section, footer, header, aside, nav{
 
 ul.list{
 	list-style: none;
-	width: 570px;
+	width: 580px;
 	margin: 0 auto;
 	text-align: left;
 }
 
 ul.list li{
-	border-top: 1.5px #000066;
-	border-bottom: 1px #000066;
-	border-left: 1px #000066;
-	border-right: 1px #000066;
+	border-top: 1.5px #003366;
+	border-bottom: 1px #003366;
+	border-left: 1px #003366;
+	border-right: 1px #003366;
 	padding: 10px;
 	overflow: hidden;
 }
@@ -123,7 +123,7 @@ ul.list li img{
 	width:120px;
 	height:120px;
 	float:left;
-	border:1px #000066;
+	border:1px #003366;
 }
 
 ul.list li p{
