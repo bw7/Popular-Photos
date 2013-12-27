@@ -151,9 +151,9 @@ ul.grid li{
 }
 
 ul.grid li img{
-	width:280px;
-	height:280px;
+	width:279px;
+	height:275px;
 	display:block;
-	border:none;
+	border:1px solid #003366;
 }
 
